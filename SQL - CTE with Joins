@@ -1,5 +1,7 @@
 SQL query using CTE
 
+-- Find total amount paid by top 5 customers from top 10 cities
+
 WITH top_5_customers (customer_id, first_name, last_name, country, city, total_amount_paid)
 AS
 	(SELECT A.customer_id,
