@@ -1,6 +1,6 @@
-SQL query using CTE
+SQL query using CTE and joins
 
--- Find total amount paid by top 5 customers from top 10 cities
+-- Find out how many of the top 5 customers are based within each country
 
 WITH top_5_customers (customer_id, first_name, last_name, country, city, total_amount_paid)
 AS
